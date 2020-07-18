@@ -25,7 +25,15 @@ div.scrollmenu h5 {
   font-family: calibri;
    border: 2px solid #e3cdcd;
    border-radius: 15px;
-   /*border-width: 1px;*/
+   border-width: 1px;
+   padding: 4px 5px;
+}
+
+div.scrollmenu h6 {
+  font-family: calibri;
+   border: 2px solid #e3cdcd;
+   border-radius: 15px;
+   border-width: 1px;
    padding: 4px 5px;
 }
 
