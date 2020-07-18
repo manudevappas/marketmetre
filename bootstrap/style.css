@@ -30,7 +30,7 @@ div.scrollmenu h5 {
 }
 
 .select{
-    height: 38px;
+    height: 30px;
     border-radius: 21px;
     background-color: #fdeded;
     width: 136px;
@@ -41,7 +41,7 @@ div.scrollmenu h5 {
 }
 
 div.scrollmenu a:hover {       
-    height: 38px;
+    height: 30px;
     border-radius: 21px;
     background-color: #fdeded;
     width: 136px;
