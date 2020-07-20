@@ -1,9 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Vegetables Mandi</title>
 
-    
+    <meta name="theme-color" content="#536878" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Marketmetre</title>
+    <link href="css/fireworks.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
 
   <!-- <div class="container" -->
     <header class="header-basic-light">
@@ -325,4 +328,21 @@
 
 
 </body>
+
+<!-- add to homescreen -->
+<script src="js/requestanimframe.js"></script>
+  <script src="js/fireworks.js"></script>
+  
+      <script>
+     if ('serviceWorker' in navigator) {
+        console.log("Will the service worker register?");
+        navigator.serviceWorker.register('service-worker.js')
+          .then(function(reg){
+            console.log("Yes, it did.");
+         }).catch(function(err) {
+            console.log("No it didn't. This happened:", err)
+        });
+     }
+    </script>
+
 </html>
