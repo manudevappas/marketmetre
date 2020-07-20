@@ -8,22 +8,22 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "images/logo0.png",
+      "src": "images/logo00.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "images/logo1.png",
+      "src": "images/logo11.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "images/logo2.png",
+      "src": "images/logo22.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "images/logo3.png",
+      "src": "images/logo33.png",
       "type": "image/png",
       "sizes": "192x192"
     }
