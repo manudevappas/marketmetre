@@ -3,7 +3,7 @@
 {
   "short_name": "Marketmetre",
   "name": "Marketmetre",
-  "theme_color": "#07260a",
+  "theme_color": "#000",
   "background_color": "#000",
   "display": "standalone",
   "icons": [
