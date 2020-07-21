@@ -2,10 +2,11 @@
 <html>
 <head>
 
-    <meta name="theme-color" content="#07260a" />
+    <meta name="theme-color" content="#536878" />
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Marketmetre</title>
-    
+    <!-- <link href="css/fireworks.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/fireworks.css">
     <link rel="manifest" href="manifest.json">
 
   <!-- <div class="container" -->
@@ -36,7 +37,8 @@
     <script src="bootstrap\select2.min.js"></script>
 </head>
 <body>
- <div classs="container">
+ 
+<div class="container">
 <div class="row" style="padding-top: 10px;">
   <div class="col-md-2"></div>
     <div class="col-md-8">
@@ -53,9 +55,6 @@
   <a href="#contact"><h5>Gundalpet</h5></a>
   <a href="#about"><h5>CH Nagar</h5></a>  
 </div>
-
-
-
 
 <table class="table table-bordered" style="padding: 0px;">
     <thead>
@@ -324,21 +323,24 @@
   </div>
   <div class="col-md-2"></div>
   </div>
-    
-    </div>
 
+</div>
 </body>
-  <script src="js/requestanimframe.js"></script>
+
+<!-- add to homescreen -->
+<script src="js/requestanimframe.js"></script>
   <script src="js/fireworks.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      console.log("Will service worker register?");
-      navigator.serviceWorker.register('service-worker.js').then(function(reg){
-        console.log("Yes it did.");
-      }).catch(function(err) {
-        console.log("No it didn't. This happened: ", err)
-      });
-    }
-  </script>
+  
+      <script>
+     if ('serviceWorker' in navigator) {
+        console.log("Will the service worker register?");
+        navigator.serviceWorker.register('service-worker.js')
+          .then(function(reg){
+            console.log("Yes, it did.");
+         }).catch(function(err) {
+            console.log("No it didn't. This happened:", err)
+        });
+     }
+    </script>
 
 </html>
